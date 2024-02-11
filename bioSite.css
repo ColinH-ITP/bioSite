@@ -1,5 +1,14 @@
+@import url(https://db.onlinewebfonts.com/c/8be4a2f403c2dc27187d892cca388e24?family=Britannic+Bold);
+@import url(https://db.onlinewebfonts.com/c/12c13307742d4e286b692cce7ec65307?family=Californian+FB);
+@import url(https://db.onlinewebfonts.com/c/2bf40ab72ea4897a3fd9b6e48b233a19?family=Garamond);
+
+h1 {
+    font-family: "Britannic Bold";
+}
+
 h2 {
     text-decoration: underline;
+    font-family: "Britannic Bold";
 }
 
 header {
@@ -8,6 +17,7 @@ header {
     background-color: #7A9B76;
     color: #5a2328;
     border-bottom: 10px solid #8a7e72;
+    font-family: "Britannic Bold";
 }
 
 #navbar.vertical-menu a {
@@ -17,26 +27,40 @@ header {
     text-decoration: none;
     padding: 15px;
     text-align: right;
+    font-family: "Britannic Bold";
 }
 
 #container h1, #container p {
     padding-left: 1%;
+    font-family: "Californian FB";
+}
+
+figcaption {
+    font-family: Garamond;
 }
 
 ul {
     list-style-type: none;
+    text-align: left;
+    font-family: "Britannic Bold";
+}
+
+li {
+    font-family: "Californian FB";
     text-align: left;
 }
 
 /* BLOCKQUOTE FORMATTING COPIED FROM https://developer.mozilla.org/en-US/docs/Web/HTML/Element/blockquote BECAUSE I HAPPEN TO LIKE THIS FORMATTING STYLE*/
 blockquote {
     margin: 0;
+    font-family: "Garamond";
 }
   
 blockquote p {
     padding: 15px;
     background-color: #8a7e72;
     border-radius: 5px;
+    font-family: "Garamond";
 }
 
 footer {
@@ -48,4 +72,5 @@ footer {
     background-color: #8a7e72;
     color: #5a2328;
     text-align: center;
+    font-family: "Garamond";
 }
